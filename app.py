@@ -59,8 +59,8 @@ TEMPLATE = """
     <div class="card">
         <h1>Welcome 👋</h1>
         <form method="POST">
-            <input type="text" name="name" placeholder="Enter your name" required>
-            <button type="submit">Subsmit</button>
+            <input type="text" name="name" placeholder="Enter your Sweet name" required>
+            <button type="submit">Submit</button>
         </form>
         {% if name %}
         <div class="result">Hello, <b>{{ name }}</b> 🚀</div>
