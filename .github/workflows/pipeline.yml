@@ -14,7 +14,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::533267084857:role/GitHubDeployRole
-          aws-region: ap-south-1
+          aws-region: eu-west-1
 
       - name: Deploy via SSM
         run: |
