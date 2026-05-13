@@ -59,7 +59,7 @@ TEMPLATE = """
     <div class="card">
         <h1>Welcome 👋</h1>
         <form method="POST">
-            <input type="text" name="name" placeholder="Enter your Sweet name" required>
+            <input type="text" name="name" placeholder="Enter your name" required>
             <button type="submit">Submit</button>
         </form>
         {% if name %}
