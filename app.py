@@ -7,7 +7,7 @@ TEMPLATE = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Simple Web App</title>
+    <title>My Simple Web App in Python</title>
     <style>
         body {
             font-family: Arial, sans-serif;
